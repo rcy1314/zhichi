@@ -270,3 +270,20 @@ a{
 		transform: rotateZ(40deg) scale(0.6,0.6);
 	}
 }
+.donorDetails {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ticker__item {
+    display: inline-block;
+    margin: 0 10px;
+    color: red;
+    background: linear-gradient(92.01deg, #FF0000 0%, #BC00BC 25%, #1B49EC 50%, #5AFDF2 75%, #11F917 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
